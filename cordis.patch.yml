@@ -1,0 +1,7 @@
+# dsh-memory-index：插入一条 bundle 行。
+#
+# 名字用裸包名：客户端模块扫描器按包名解析 <name>/package.json，
+# 写成子路径会被缓存成“不是客户端包”，浏览器半部就永远不加载。
+- insert:
+    - id: dsh-memory-index
+      name: 'dsh-memory-index'

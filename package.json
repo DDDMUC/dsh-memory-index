@@ -1,0 +1,41 @@
+{
+  "name": "dsh-memory-index",
+  "version": "0.1.0",
+  "description": "Rule-based long-term memory for DeepSeek Harness: extract commands, files, errors, decisions, links and todos from session logs into a greppable JSON index - no model calls, no summaries, nothing invented.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "memory",
+    "long-term-memory",
+    "extractive",
+    "no-llm",
+    "记忆",
+    "长程记忆",
+    "索引"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDDMUC/dsh-memory-index.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  }
+}
